@@ -1,14 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+<html>
 
-  <h1>Meniu Patiserie</h1>
-  <embed src="Meniu_Patiserie_16May2023.pdf" width="100%" height="900px" type="application/pdf">
-  
+<head>
+  <title>Afișare document PDF</title>
+  <style>
+    /* Stilurile pentru conținutul PDF */
+    #pdfContainer {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Document PDF Încorporat</h1>
+  <div id="pdfContainer">
+    <embed src="Meniu_Patiserie_16May2023.pdf" width="100%" height="600" type="application/pdf">
+  </div>
 </body>
+
 </html>
